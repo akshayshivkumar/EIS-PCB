@@ -2973,12 +2973,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -2993,16 +2994,6 @@
 				)
 			)
 			(property "MF" "Espressif Systems"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7776,10 +7767,6 @@
 		(uuid "47e61001-8481-47b5-ae36-7a463660a052")
 	)
 	(no_connect
-		(at 182.88 96.52)
-		(uuid "48a347ab-7de4-490f-813e-affe50fe188b")
-	)
-	(no_connect
 		(at 260.35 -50.8)
 		(uuid "4a15c99b-2c27-4e2c-ba87-81258d655569")
 	)
@@ -8501,6 +8488,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 96.52) (xy 184.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0d36bb-46db-44c2-b5c3-dce5bcf3c2bf")
+	)
+	(wire
+		(pts
 			(xy 201.93 156.21) (xy 201.93 157.48)
 		)
 		(stroke
@@ -8758,6 +8755,16 @@
 			(type default)
 		)
 		(uuid "467c13a7-83be-44b8-af87-de0be1232c80")
+	)
+	(wire
+		(pts
+			(xy 184.15 96.52) (xy 184.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481cbc86-de9a-44f8-ad0c-7240ffd99595")
 	)
 	(wire
 		(pts
@@ -18119,6 +18126,72 @@
 			(project ""
 				(path "/b9be45c7-595f-4fac-82ce-4faac3c4812a"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5394457-fd4e-489c-b254-53bdd438dee7")
+		(property "Reference" "#PWR01"
+			(at 184.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "304f3a13-c677-46e6-bd88-8b64e8390362")
+		)
+		(instances
+			(project ""
+				(path "/b9be45c7-595f-4fac-82ce-4faac3c4812a"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
